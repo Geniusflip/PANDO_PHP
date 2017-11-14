@@ -1,0 +1,209 @@
+/** fonts --- currently not working - make work? */
+
+@font-face {
+    font-family: ubuntu;
+    src: url(ubuntu-b.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: sourcesans;
+    src: url(sourcesanspro-light.ttf);
+    font-weight: bold;
+}
+
+body {
+	background-color: #FFF;
+  	background: url(WALL.jpg);
+  	background-attachment: fixed;
+  	height: 100%;
+    font-family:'sourcesans', Helvetica;
+  	width: 100%;
+}
+
+
+
+/** navbar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #f0ff78;
+  width: 100%;
+  margin-top:-10px;
+  margin-left:-10px;
+  margin-right:-10px;
+  position:fixed;
+  z-index: 9999999999;
+  display:block;
+  position:fixed;
+}
+
+.topnav img {
+	
+	width:120px;
+	height:60px;
+	float: left;
+	
+	margin-left:16em;
+	margin-top: 0px;
+
+	
+
+}
+a.nav_items {
+  float: right;
+  display: block;
+  color: #404040;
+  text-align: center;
+  padding:18px 16px;
+  
+  font-family:'sourcesans', Helvetica;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+#links {
+    margin-right: 16em;
+
+
+}
+
+/** main stuff */
+
+
+.main {
+  
+  margin:auto;
+  text-align: auto;
+  width: 65% ;
+  background-color:#ffffff;
+  height:110%;
+  font-family:'sourcesans', Helvetica;
+  
+}
+
+#maintitle {
+  
+  margin:auto;
+  font-family:'ubuntu', Helvetica;
+  font-size: 300%;
+  color: #383838;
+  padding-top:2em;
+
+}
+
+#subtitle {
+
+  color: #383838;
+  font-family: 'ubuntu', Helvetica;
+  font-size: 180%;
+  padding-top:0.5em;
+
+}
+
+/*login form text input*/
+
+
+.textinput {
+  width:60%;
+  float:right;
+  padding: 1em;
+  margin: 2em 2em 2em 2em;
+  font-size:13px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #bdc3c7;
+  color: white;
+  position: relative;
+  top: -290px;
+  font-family:'sourcesans', Helvetica;
+}
+
+#descrip {
+  height: 15em;
+  resize: none;
+  font-family:'sourcesans', Helvetica;
+}
+
+
+#profilepic {
+
+  float:left;
+  padding: 2em;
+  padding-top:90px;
+  margin: 2em 2em 2em 6em;
+  height:200px;
+  width:200px;
+  border-radius:100px;
+  font-family:'sourcesans', Helvetica;
+  border: none;
+  background-color: #bdc3c7;
+  color: white;
+
+}
+
+#backgroundpic {
+
+  float:left;
+  padding:2em;
+  padding-top:75px;
+  margin: 2em 2em 2em 6em;
+  height:150px;
+  width:200px;
+  font-family:'sourcesans', Helvetica;
+  border: none;
+  background-color: #bdc3c7;
+  color: white;
+  position: relative;
+  top: 220px;
+  left: -450px;
+}
+
+
+
+.picuploadtext {
+  float:left;
+  color: #797D7F;
+  font-family: Helvetica;
+  position:relative;
+  top: 200px;
+  left: -210px;
+
+}
+
+#submit {
+
+  background-color:#f0ff78;
+  height: 100px;
+  width:100px;
+  border-radius: 50px;
+  color: #535353;
+  position: relative;
+  top:340px;
+  font-family: 'ubuntu', Helvetica;
+  font-size: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+

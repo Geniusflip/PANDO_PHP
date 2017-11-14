@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="signup_style.css">
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="signup_effect.js"></script>
+
+</head>
+
+<body onload="showpopup()">
+	<!-- navbar --> 
+
+    <div class="topnav">
+
+      <!-- right logo -->
+
+      <a href="home.html">
+        <img src="pandologotp.png" alt ="PANDO" />
+      </a>
+      <!-- left links -->
+      <div id="links">
+
+        
+        <a href="signup.html" class="nav_items" id="signup">Sign Up</a>
+        <a href="login.html" class="nav_items" id="login">Log In</a>
+        
+        
+      </div>
+        
+
+
+
+    </div>
+ 
+    <center>
+        <!-- <input type="button" id="show_login" value="Show Login"> -->
+        <div id="signupform">
+
+            <form method="post" action="./process_signup.php">
+                <div>
+                    <a href="home.html" id ="hide_signup" class="signup">X</a>
+                    </div> 
+                <p>Sign Up</p>
+                <br>
+
+                <input type="text" id="firstname" name="uid" placeholder ="Username">
+
+                <input type="text" id="email" name="uemail" placeholder ="Email">
+                <input type="password" id="password" name="upass" placeholder ="Password">
+                <input type="password" id="repeatpassword" name="urpass" placeholder ="Repeat Password">
+
+                <button id="dosignup" onclick="chSignUpInfo()">Submit</button>
+            </form>
+        </div>
+    </center>
+
+</body>
+
+</html>

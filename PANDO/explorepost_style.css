@@ -1,0 +1,333 @@
+//** fonts --- currently not working - make work? */
+
+@font-face {
+    font-family: ubuntu;
+    src: url(ubuntu-b.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: sourcesans;
+    src: url(sourcesanspro-light.ttf);
+    
+}
+
+@font-face {
+    font-family: sourcesans;
+    src: url(sourcesanspro-semibold.ttf);
+    font-weight: bold;
+}
+
+body {
+  background-color: #FFF;
+    background: url(templelant.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    
+    width: 100%;
+    height: auto;
+}
+/** navbar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #f0ff78;
+  width: 100%;
+  margin-top:-180px;
+  margin-left:-10px;
+  margin-right:-10px;
+  position:fixed;
+  z-index: 9999999999;
+  display:block;
+  position:fixed;
+}
+
+.topnav img {
+  
+  width:120px;
+  height:60px;
+  float: left;
+  
+  margin-left:16em;
+  margin-top: 0px;
+
+  
+
+}
+a.nav_items {
+  float: right;
+  display: block;
+  color: #404040;
+  text-align: center;
+  padding:18px 16px;
+  
+  font-family: 'sourcesans', Helvetica;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+#links {
+    margin-right: 16em;
+
+
+}
+
+/** main stuff */
+
+
+.main {
+  padding-top:100px;
+  margin:auto;
+  text-align: auto;
+    width: 1000px ;
+  background-color:#ffffff;
+  margin-bottom: 30px;
+  padding-bottom:50px;
+  /*padding:100px 50px 50px 50px;*/
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+  
+}
+
+#maintitle {
+  
+  margin:auto;
+  font-family: 'ubuntu', Helvetica;
+  font-size: 300%;
+  color: #383838;
+  padding-top:2em;
+
+}
+
+#subtitle {
+
+  color: #383838;
+  font-family: 'ubuntu', Helvetica;
+  font-size: 180%;
+  padding-top:0.5em;
+
+}
+
+
+
+/** login form stuff */
+#fullpost {
+    width: 800px;
+    height: 500px;
+    margin-top: 180px;
+    margin-bottom:30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px #424242;
+    padding: 10px;
+    box-sizing : border-box;
+    font-family: 'sourcesans', helvetica;
+    visibility: hidden;
+    display: none;
+    opacity:0.97;
+    z-index:9999999;
+
+}
+
+#fullpost #close_login {
+    position: absolute;
+    top: 140px;
+    left: 735px;
+    width: 15px;
+    height: 15px;
+}
+
+#fullpost p {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #E6E6E6;
+    font-family: 'sourcesans', Helvetica;
+}
+
+#fullpost #login {
+    width: 250px;
+    height: 40px;
+    border: 2px solid silver;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: 'sourcesans', Helvetica;
+    
+}
+
+#fullpost #password {
+    margin-top: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid silver;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: 'sourcesans', Helvetica;
+}
+
+#fullpost #dologin {
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: #E6E6E6;
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'sourcesans', Helvetica;
+}
+#exit_post{
+    position:relative;
+    right:-115px;
+    bottom:90px;
+    text-decoration: none;
+    color: #585858;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+
+/*fullpost content*/
+
+.profilepic {
+  height:75px;
+  width: 75px;
+  border-radius: 75px;
+  margin-top:40px;
+  margin-left:-600px;
+
+}
+
+
+
+/*posts*/
+/*left side
+*/
+.image {
+  width:275px;
+  height: 275px;
+  /*-webkit-filter: blur(0);
+  filter: blur(0);*/
+  opacity:0.75;
+  margin-left: -430px;
+  margin-top: -15px;
+}
+
+
+
+.pin {
+  width:50px;
+  height: 50px;
+  /*margin-left:-120px;
+  margin-bottom: -20px;*/
+}
+
+.city {
+  
+  margin-left:140px;
+  margin-top:-35px;
+  font-size: 20px;
+
+}
+
+.pinlocation {
+  margin-left:-600px;
+  margin-top: 5px;
+}
+
+h6 {
+
+  font-family: 'sourcesans', Helvetica;
+  font-weight: bold;
+  
+}
+
+
+
+.blogname {
+  margin-top:-80px;
+  margin-left:-180px;
+  font-size:30px;
+  color:#585858;
+  }
+
+a {
+  text-decoration: none;
+}
+
+
+#follow-button {
+  
+  height:25px;
+  width:60px;
+  font-family:'sourcesans', Helvetica;
+  font-size:14px;
+  
+  background-color: #585858;
+  border-radius:20px;
+  color:#f0ff78;
+  float:left;
+  margin-top:-60px;
+  margin-left:170px;
+  
+}
+
+/*right side*/
+
+.descriparea {
+ 
+  width: 400px;
+  height:400px;
+  margin-top:-460px;
+  margin-right:30px; 
+  float:right;
+  overflow:hidden;
+  
+}
+
+
+
+.title {
+ 
+  font-size:19px;
+  font-family: 'sourcesans', Helvetica;
+  font-weight: bold;
+  margin-top:10px;
+  color:#585858;
+
+}
+
+
+.descrip {
+  text-decoration: none;
+  font-family: 'sourcesans', Helvetica;
+  font-size:14px;
+  color: #585858;
+
+
+
+
+}
+

@@ -1,0 +1,147 @@
+/** fonts --- currently not working - make work? */
+
+@font-face {
+    font-family: ubuntu;
+    src: url(ubuntu-b.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: sourcesans;
+    src: url(sourcesanspro-light.ttf);
+    font-weight: bold;
+}
+
+/*body*/
+
+body {
+  background-color: #FFF;
+    background: url(bamboobackground.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    font-family: 'sourcesans', Helvetica;
+}
+
+
+/** navbar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  width: 100%;
+  margin-top:-10px;
+  margin-left:-10px;
+  margin-right:-10px;
+  position:fixed;
+  z-index: 9999999999;
+  display:block;
+  position:fixed;
+}
+
+.topnav img {
+  
+  width:120px;
+  height:60px;
+  float: left;
+  
+  margin-left:16em;
+  margin-top: 0px;
+
+  
+
+}
+a.nav_items {
+  float: right;
+  display: block;
+  color: #404040;
+  text-align: center;
+  padding:18px 16px;
+  
+  font-family: 'sourcesans', Helvetica;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+
+
+
+
+#links {
+    margin-right: 16em;
+
+}
+
+#login {
+  background-color: #d9d9d9;
+
+}
+
+#signup {
+  background-color: #f0ff78;
+
+}
+
+.topnav  #links a:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+
+
+.topnav #links a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+/** main stuff */
+
+
+.main {
+	padding-top:10em;
+	margin:auto;
+	text-align: auto;
+	width: 100% ;
+}
+
+h1 {
+	float: center;
+	color: white;
+	font-family: 'ubuntu', Helvetica;
+	font-size: 750%;
+font-weight: bold;
+
+}
+
+h2 {
+	color: white;
+	font-family: 'ubuntu', Helvetica;
+	font-size: 200%;
+  position: relative;
+  top: -2.5em;
+}
+
+#dobutton {
+  height:120px;
+  width:120px;
+  background-color: #f0ff78;
+  color: #535353;
+  font-weight: bold;
+  font-size:70px;
+  padding:37px 20px 10px 25px;
+  border-radius: 120px;
+  font-family: 'ubuntu', Helvetica;
+
+
+}
+
+#dobuttonlink {
+  text-decoration: none;
+}
+
+
+
+

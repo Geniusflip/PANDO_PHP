@@ -1,0 +1,169 @@
+/** fonts --- currently not working - make work? */
+
+@font-face {
+    font-family: ubuntu;
+    src: url(ubuntu-b.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: sourcesans;
+    src: url(sourcesanspro-light.ttf);
+    font-weight: bold;
+}
+
+
+
+body {
+    background-color: #FFF;
+    background: url(bamboobackground.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    font-family:'sourcesans', Helvetica;
+}
+
+/** navbar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  width: 100%;
+  margin-top:-10px;
+  margin-left:-10px;
+  margin-right:-10px;
+  position:fixed;
+  z-index: 9999999999;
+  display:block;
+  position:fixed;
+  top:5px;
+}
+
+.topnav img {
+  
+  width:120px;
+  height:60px;
+  float: left;
+  
+  margin-left:16em;
+  margin-top: 0px;
+
+  
+
+}
+a.nav_items {
+  float: right;
+  display: block;
+  color: #404040;
+  text-align: center;
+  padding:18px 16px;
+  
+  font-family: 'sourcesans', Helvetica;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+
+#links {
+    margin-right: 16em;
+
+}
+
+#login {
+  background-color: #d9d9d9;
+
+}
+
+#signup {
+  background-color: #f0ff78;
+
+}
+
+.topnav  #links a:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+
+
+.topnav #links a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+/** login form stuff */
+#loginform {
+    width: 500px;
+    height: 330px;
+    margin-top: 200px;
+    background-color: #585858;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px #424242;
+    padding: 10px;
+    box-sizing : border-box;
+    font-family: helvetica;
+    visibility: hidden;
+    display: none;
+    opacity:0.97;
+
+}
+
+#loginform #close_login {
+    position: absolute;
+    top: 140px;
+    left: 735px;
+    width: 15px;
+    height: 15px;
+}
+
+#loginform p {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #E6E6E6;
+    font-family: 'sourcesans', Helvetica;
+}
+
+#loginform #login {
+    width: 250px;
+    height: 40px;
+    border: 2px solid silver;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: 'sourcesans', Helvetica;
+    
+}
+
+#loginform #password {
+    margin-top: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid silver;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: 'sourcesans', Helvetica;
+}
+
+#loginform #dologin {
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: #E6E6E6;
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'sourcesans', Helvetica;
+}
+#hide_login{
+    position: relative;
+    left: 230px;
+    bottom: 0px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
